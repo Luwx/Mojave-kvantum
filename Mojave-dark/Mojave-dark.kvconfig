@@ -231,10 +231,10 @@ frame=true
 interior=false
 frame.element=common
 interior.element=common
-frame.top=1
-frame.bottom=1
-frame.left=1
-frame.right=1
+frame.top=2
+frame.bottom=2
+frame.left=2
+frame.right=2
 
 [LineEdit]
 inherits=PanelButtonCommand
@@ -527,13 +527,18 @@ text.shadow=0
 
 [ToolTip]
 inherits=GenericFrame
-frame.top=3
-frame.bottom=3
-frame.left=3
-frame.right=3
+frame=true
+frame.top=0
+frame.bottom=0
+frame.left=0
+frame.right=0
 interior=true
-text.shadow=0
-text.margin=0
+text.shadow=1
+text.margin=1
+text.margin.top=10
+text.margin.bottom=10
+text.margin.left=10
+text.margin.right=10
 interior.element=tooltip
 frame.element=tooltip
 frame.expansion=0
