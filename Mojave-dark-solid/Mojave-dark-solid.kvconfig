@@ -44,7 +44,7 @@ button_icon_size=16
 toolbar_icon_size=19
 combo_as_lineedit=true
 combo_menu=true
-combo_focus_rect=false
+combo_focus_rect=true
 square_combo_button=true
 hide_combo_checkboxes=false
 animate_states=true
@@ -289,7 +289,7 @@ text.press.color=#f6f6f6
 text.toggle.color=#ffffff
 text.toggle.inactive.color=#252525
 frame.expansion=12
-indicator.size=8
+indicator.size=14
 text.shadow=false
 
 [TabFrame]
@@ -361,12 +361,9 @@ inherits=PanelButtonCommand
 frame.element=progress
 interior.element=progress
 text.margin=0
-text.normal.color=404040
-text.focus.color=404040
-text.press.color=404040
-text.toggle.color=404040
+text.shadow=true
 text.bold=false
-frame.expansion=10
+frame.expansion=0
 
 [ProgressbarContents]
 inherits=PanelButtonCommand

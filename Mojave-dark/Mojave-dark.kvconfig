@@ -359,12 +359,8 @@ inherits=PanelButtonCommand
 frame.element=progress
 interior.element=progress
 text.margin=0
-text.normal.color=404040
-text.focus.color=404040
-text.press.color=404040
-text.toggle.color=404040
 text.bold=false
-frame.expansion=10
+frame.expansion=0
 
 [ProgressbarContents]
 inherits=PanelButtonCommand
